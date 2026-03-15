@@ -1,0 +1,16 @@
+[project]
+name = "helmet-detection-api"
+version = "0.2.0"
+description = "ML API for helmet and license plate detection using Gemini Vision AI"
+requires-python = ">=3.9"
+
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "python-multipart==0.0.6",
+    "python-dotenv==1.0.0",
+    "httpx>=0.27.0",
+]
+
+[tool.uv]
+managed = true
